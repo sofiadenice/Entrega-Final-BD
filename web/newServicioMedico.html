@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>new Servicio Medico</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+        <body>
+        <h1>Nuevo Servicio Medico</h1>
+        <br>
+            
+        <form action="ServicioMedicoServlet" method="get">
+           
+            Id Servicio Medico:
+            <br>
+            <input type="number" id="id" name="id" />
+            <br><br>
+            Medico responsable: 
+            <br>
+            <input type="number" id="idMedico" name="idMedico" />
+            <br><br>
+            Id Paciente:
+            <br>
+            <input type="number" id="idPaciente" name="idPaciente" />
+            <br><br>
+            Numero de cama:
+            <br>
+            <input type="number" id="numeroCama" name="numeroCama" />   
+            <br><br>
+            Diagnostico o Enfermedad:
+            <br>
+            <input type="text" id="diagnostico" name="diagnostico" />   
+            <br><br>
+            Fecha:
+            <br>
+            <input type="date" id="fecha" name="fecha" />   
+            <br><br>
+            Hora:
+            <br>
+            <input type="number" id="hora" name="hora" />   
+            <br><br>
+        </form>
+        <br>
+        <a href="ServicioMedicoMain.jsp">regresar</a>
+    </body>
+</html>

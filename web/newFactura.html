@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>new Factura</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+        <body>
+        <h1>Nueva Factura</h1>
+        <br>
+            
+        <form action="FacturaServlet" method="get">
+           
+            Fecha de emision:
+            <br>
+            <input type="date" id="fecha" name="fecha" />
+            <br><br>
+            Hora de emision: 
+            <br>
+            <input type="time" id="hora" name="hora" />
+            <br><br>
+            Correlativo:
+            <br>
+            <input type="number" id="correlativo" name="correlativo" />
+            <br><br>
+            Id Tratamiento:
+            <br>
+            <input type="number" id="tratamiento_id" name="tratamiento_id" />
+            <br><br>
+            Total:
+            <br>
+            <input type="number" id="Total" name="Total" />
+            <br><br>
+            <input type="submit" value="Send" />
+            <input type="hidden" name="formid" value="1" />
+        </form>
+        <br>
+        <a href="FacturaMain.jsp">regresar</a>
+    </body>
+</html>
